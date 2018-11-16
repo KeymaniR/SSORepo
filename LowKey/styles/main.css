@@ -1,0 +1,301 @@
+body {
+    font-weight: 100;
+    font-size: 15px;
+}
+.affix{
+    top:0;
+    width:100%
+}
+#describe{
+    color: #A5F2F3;
+}
+.slides{
+    text-align: center;
+    float:left;
+}
+#logoContainer{
+    text-align:center;
+}
+#Hlogo{
+    width: 300px;
+    border-radius:40px;
+
+}
+#outBtn{
+    text-align: center
+}
+#logoutBtn{
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    width: 120px;
+    margin:10px auto;
+    background-color: black;
+    background: url('../images/logout.png') no-repeat 5px 5px;
+    border-left: 5px groove #A5F2F3;
+    border-right: 5px groove #A5F2F3;
+    font-family:"Goudy Old Style";
+    color: #A5F2F3;
+    cursor: pointer;
+    -webkit-transition-timing-function: ease-in-out;
+    -webkit-transition-duration: .4s;
+    -webkit-transition-property: all;
+    -moz-transition-timing-function: ease-in-out;
+    -moz-transition-duration: .4s;
+    -moz-transition-property: all;
+}
+#logoutBtn:hover{
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    width: 120px;
+    margin: 10px auto;
+    background-color: black;
+    border-left: 5px solid #A5F2F3;
+    border-right: 5px solid #A5F2F3;
+    font-family: "Goudy Old Style";
+    opacity: 0.9;
+    color: white;
+    background-image: url('../images/logout.png');
+    background-position: 90px 5px;
+    text-indent: 5px;
+}
+
+#del{
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    width: 120px;
+    margin:10px auto;
+    background-color: black;
+    background: url('../images/rubbish-bin.png') no-repeat 5px 5px;
+    border-left: 5px groove #A5F2F3;
+    border-right: 5px groove #A5F2F3;
+    font-family:"Goudy Old Style";
+    color: #A5F2F3;
+    cursor: pointer;
+    -webkit-transition-timing-function: ease-in-out;
+    -webkit-transition-duration: .4s;
+    -webkit-transition-property: all;
+    -moz-transition-timing-function: ease-in-out;
+    -moz-transition-duration: .4s;
+    -moz-transition-property: all;
+}
+#adminBtn{
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    width: 120px;
+    margin:10px auto;
+    background-color: black;
+    background: url('../images/edit.png') no-repeat 5px 5px;
+    border-left: 5px groove #A5F2F3;
+    border-right: 5px groove #A5F2F3;
+    font-family:"Goudy Old Style";
+    color: #A5F2F3;
+    cursor: pointer;
+    -webkit-transition-timing-function: ease-in-out;
+    -webkit-transition-duration: .4s;
+    -webkit-transition-property: all;
+    -moz-transition-timing-function: ease-in-out;
+    -moz-transition-duration: .4s;
+    -moz-transition-property: all;
+}
+
+#del:hover{
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    width: 120px;
+    margin:10px auto;
+    background-color: black;
+    border-left: 5px solid #A5F2F3;
+    border-right: 5px solid #A5F2F3;
+    font-family:"Goudy Old Style";
+    opacity:0.9;
+    color: white;
+    background-image: url('../images/rubbish-bin.png');
+    background-position: 90px 5px;
+    text-indent: 5px;
+}
+#adminBtn:hover {
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    width: 120px;
+    margin: 10px auto;
+    background-color: black;
+    border-left: 5px solid #A5F2F3;
+    border-right: 5px solid #A5F2F3;
+    font-family: "Goudy Old Style";
+    opacity: 0.9;
+    color: white;
+    background-image: url('../images/edit.png');
+    background-position: 90px 5px;
+    text-indent: 5px;
+}
+#key{
+    width: 300px;
+    background-color: black;
+}
+#leftBlock, #rightBlock{
+    float: left;
+}
+
+#left, #right{
+    float: left;
+}
+#shoppingCart{
+    font-size: 18px;
+    text-align: center;
+    width: 900px;
+    color: #A5F2F3;
+}
+#entryBar{
+    background-color: #A5F2F3;
+    text-align: center;
+    color: #002266;
+    border-bottom: 5px groove indianred;
+    border-left: 5px groove #002266 ;
+    font-size: 20px;
+    border-right: 5px groove #002266 ;
+}
+
+#entryBar:hover{
+    color: indianred;
+}
+#qty{
+    background-color: black;
+}
+.mySlides {
+    display: none;
+    max-width: 900px;
+
+}
+#logo{
+    border-radius: 30px;
+    width: 140px;
+}
+
+#pic{
+    text-align: left;
+    margin: auto;
+    border-radius: 40px;
+
+}
+#time{
+    font-size: large;
+    text-align: center;
+    color: #A5F2F3;
+}
+
+#greeting{
+    text-align: center;
+    color: #A5F2F3;
+}
+#Menubtn{
+    border-radius: 20px;
+    text-align: center;
+    width: 160px;
+    margin:10px auto;
+    background-color: black;
+    border-bottom: 5px groove black;
+    border-left: 5px groove #A5F2F3;
+    border-right: 5px groove #A5F2F3;
+    color: #A5F2F3;
+}
+
+#aboutUs{
+    background-color: white;
+    text-align: center;
+    margin: auto 300px;
+    border-radius: 20px;
+}
+
+.prodIm{
+    max-width:150px;
+    height:200px;
+}
+
+#space{
+    opacity: 0.0;
+}
+
+#conShop, #emptyCart, #buyout{
+    color: #A5F2F3;
+}
+#align{
+    text-align: center;
+}
+
+.navbar.navbar-inverse{
+    z-index:1;
+    background-color: black;
+}
+
+#list{
+    text-align: center;
+    color: #A5F2F3;
+}
+
+#cartBtn{
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    width: 120px;
+    margin:10px auto;
+    background-color: black;
+    background: url('../images/shopping-cart.png') no-repeat 5px 5px;
+    border-left: 5px groove #A5F2F3;
+    border-right: 5px groove #A5F2F3;
+    font-family:"Goudy Old Style";
+    color: #A5F2F3;
+    cursor: pointer;
+    -webkit-transition-timing-function: ease-in-out;
+    -webkit-transition-duration: .4s;
+    -webkit-transition-property: all;
+    -moz-transition-timing-function: ease-in-out;
+    -moz-transition-duration: .4s;
+    -moz-transition-property: all;
+}
+
+#cartBtn:hover{
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    width: 120px;
+    margin:10px auto;
+    background-color: black;
+    border-left: 5px solid #A5F2F3;
+    border-right: 5px solid #A5F2F3;
+    font-family:"Goudy Old Style";
+    opacity:0.9;
+    color: white;
+    background-image: url('../images/shopping-cart.png');
+    background-position: 90px 5px;
+    text-indent: 5px;
+}
+
+.homeContainer{
+    display: flex;
+}
+
+.homeContainer > div{
+    flex:100;
+}
+#quote{
+    background-color: black;
+    border-left: 5px groove #A5F2F3;
+    border-right: 5px groove #A5F2F3;
+    border-bottom: 5px groove black;
+    border-radius: 20px;
+    margin: 15px auto;
+    width: 150px;
+    text-align: center;
+    font-size: 14px;
+    color: #A5F2F3;
+}
+#userInfo{
+
+    font-weight: bold;
+}
