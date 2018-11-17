@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact!</title>
+    <script src="../scripts/jquery-3.1.1.min.js"></script>
+    <script src="../scripts/jquery.cookie.js"></script>
+    <script src="../scripts/authenticate.js"></script>
+    <script src="../scripts/initiate.js"></script>
+    <link rel="stylesheet" type="text/css" href="../styles/form.css">
+    <link rel="stylesheet" type="text/css" href="../styles/main.css">
+</head>
+
+<body id="body">
+
+<div onclick="openNav()" id="Menubtn">
+    Open Menu
+</div>
+
+<div class="container">
+    <form id="contact" action="" method="post">
+        <h1> Hit Us Up Real Quick! </h1>
+        <h2>Contact us at 1-800-LOV-EKEY</h2>
+        <fieldset>
+            <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+            <input placeholder="Your Email Address" type="email" tabindex="2" required>
+        </fieldset>
+        <fieldset>
+            <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+        </fieldset>
+        <fieldset>
+            <input placeholder="What is on your mind as you type this right now?" type="text" tabindex="4" required>
+        </fieldset>
+        <fieldset>
+            <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+        </fieldset>
+        <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+        </fieldset>
+        <p class="copyright">Designed by <a href="https://colorlib.com" target="_blank" title="Colorlib">Colorlib</a>. But edited by Keymani Reid</p>
+    </form>
+</div>
+<div id="time">
+
+</div>
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="home.html">Home</a>
+    <a href="Login.html">Sign In</a>
+    <a href="Registration.html">Sign Up</a>
+    <a href="ShoppingCart.html">Cart</a>
+    <a href="AboutUs.html">About Us</a>
+    <a href="ContactUs.html">Contact Us</a>
+    <a href="Admin.html"> Admin Only</a>
+</div>
+
+
+</body>
+</html>

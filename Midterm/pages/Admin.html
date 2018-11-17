@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cart</title>
+    <script src="../scripts/jquery-3.1.1.min.js"></script>
+    <script src="../scripts/jquery.cookie.js"></script>
+    <script src="../scripts/authenticate.js"></script>
+    <script src="../scripts/initiate.js"></script>
+    <link rel="stylesheet" type="text/css" href="../styles/form.css">
+    <link rel="stylesheet" type="text/css" href="../styles/main.css">
+</head>
+
+<body id="body">
+
+<script>
+    if(!isUserAuthenticated(true,true)){
+        alert("Bro you know you can not access this point");
+        window.location.href="home.html";
+    }
+</script>
+
+<div onclick="openNav()" id="Menubtn">
+    Open Menu
+</div>
+</body>
+</html>
+
+
+
+
+
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="home.html">Home</a>
+    <a href="ShoppingCart.html">Cart</a>
+    <a href="AboutUs.html">About Us</a>
+    <a href="Admin.html"> Admin Only</a>
+    <a href="#">Manage Users</a>
+    <a href="#">Finance</a>
+    <a href="#">Stock</a>
+    <a href="#"></a>
+</div>
+
+<div id="time">
+
+</div>
+
+
+
+</body>
