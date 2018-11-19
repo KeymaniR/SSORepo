@@ -1,0 +1,5 @@
+C:\Users\ppilaka\documents\visual studio 2010\Projects\SSOBase1\SSOBase1\bin\SSOBase1.dll
+C:\Users\ppilaka\documents\visual studio 2010\Projects\SSOBase1\SSOBase1\bin\SSOBase1.pdb
+C:\Users\ppilaka\documents\visual studio 2010\Projects\SSOBase1\SSOBase1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ppilaka\documents\visual studio 2010\Projects\SSOBase1\SSOBase1\obj\Debug\SSOBase1.dll
+C:\Users\ppilaka\documents\visual studio 2010\Projects\SSOBase1\SSOBase1\obj\Debug\SSOBase1.pdb

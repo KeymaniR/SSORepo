@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSOBase1", "SSOBase1\SSOBase1.csproj", "{19C44691-08B5-439A-B66B-13200796D962}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSOTestClientApp1", "SSOTestClientApp1\SSOTestClientApp1.csproj", "{9933B0F2-102E-497A-BA0C-183F03D6B552}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19C44691-08B5-439A-B66B-13200796D962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C44691-08B5-439A-B66B-13200796D962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C44691-08B5-439A-B66B-13200796D962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C44691-08B5-439A-B66B-13200796D962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9933B0F2-102E-497A-BA0C-183F03D6B552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9933B0F2-102E-497A-BA0C-183F03D6B552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9933B0F2-102E-497A-BA0C-183F03D6B552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9933B0F2-102E-497A-BA0C-183F03D6B552}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SSODB">
+  <DataContextMoniker Name="/SSODBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="f86222cb-13d0-42b8-ac14-43db7924ca25" absoluteBounds="0.5, 0.625, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/SSODBDataContext/MainAppCredential" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cbcb38d0-051f-4a3c-8de9-cb7b542b4ff2" absoluteBounds="0.515, 1.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f63bde31-3339-4e2d-bceb-1314b83ffff2" absoluteBounds="2.75, 0.625, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/SSODBDataContext/App" />
+      <nestedChildShapes>
+        <elementListCompartment Id="70386db4-a67f-4804-96e1-8f7f80ea51bf" absoluteBounds="2.7650000000000006, 1.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c2a4bbdf-da6a-4867-9659-a96ceb132ae0" absoluteBounds="0.5, 2, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/SSODBDataContext/UserAppMap" />
+      <nestedChildShapes>
+        <elementListCompartment Id="81ccd8b2-86c0-4b32-84f5-9cad5f58da42" absoluteBounds="0.51499999999999968, 2.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
